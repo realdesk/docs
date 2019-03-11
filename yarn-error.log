@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/onlydel/.nvm/versions/node/v11.1.0/bin/node /usr/local/Cellar/yarn/1.12.3/libexec/bin/yarn.js init
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/onlydel/.dnx/runtimes/dnx-mono.1.0.0-beta7/bin:/Users/onlydel/.dnx/bin:/Users/onlydel/Library/Python/3.7/bin:/Users/onlydel/.nvm/versions/node/v11.1.0/bin:/Users/onlydel/.rvm/gems/ruby-2.2.0/bin:/Users/onlydel/.rvm/gems/ruby-2.2.0@global/bin:/Users/onlydel/.rvm/rubies/ruby-2.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/onlydel/.rvm/bin:/Users/onlydel/apache-maven-3.3.3/bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  11.1.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.12.3/libexec/lib/cli.js:125278:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:793:16)
+      at ReadStream.onkeypress (readline.js:178:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1030:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
