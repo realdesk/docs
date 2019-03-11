@@ -25,7 +25,21 @@ module.exports = {
             sidebarDepth: 2,
             children: [
               '/guide/',
-              '/guide/help',
+              '/guide/new-ticket',
+              '/guide/ticket-merge',
+              '/guide/keyword-tags',
+              '/guide/view-source',
+              '/guide/checkout-spam',
+            ],
+          },
+          {
+            title: '화면별 도움말',
+            path: '/guide/pages',
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+              '/guide/pages/',
+              '/guide/pages/ticket-view',
             ],
           },
         ],
@@ -37,7 +51,7 @@ module.exports = {
             children: [
               '/developer/',
             ],
-          },          
+          },
         ]
       },
     },
